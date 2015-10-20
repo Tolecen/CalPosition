@@ -15,6 +15,7 @@
 		D8196FED1BD62ED6009CF00E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8196FEB1BD62ED6009CF00E /* LaunchScreen.storyboard */; };
 		D8196FF81BD62ED6009CF00E /* CalPositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8196FF71BD62ED6009CF00E /* CalPositionTests.m */; };
 		D81970031BD62ED6009CF00E /* CalPositionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D81970021BD62ED6009CF00E /* CalPositionUITests.m */; };
+		D81970121BD63014009CF00E /* UIView+LayoutTolecen.m in Sources */ = {isa = PBXBuildFile; fileRef = D81970111BD63014009CF00E /* UIView+LayoutTolecen.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D8196FFE1BD62ED6009CF00E /* CalPositionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalPositionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81970021BD62ED6009CF00E /* CalPositionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalPositionUITests.m; sourceTree = "<group>"; };
 		D81970041BD62ED6009CF00E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81970101BD63014009CF00E /* UIView+LayoutTolecen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutTolecen.h"; sourceTree = "<group>"; };
+		D81970111BD63014009CF00E /* UIView+LayoutTolecen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutTolecen.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D8196FE11BD62ED6009CF00E /* AppDelegate.m */,
 				D8196FE31BD62ED6009CF00E /* ViewController.h */,
 				D8196FE41BD62ED6009CF00E /* ViewController.m */,
+				D81970101BD63014009CF00E /* UIView+LayoutTolecen.h */,
+				D81970111BD63014009CF00E /* UIView+LayoutTolecen.m */,
 				D8196FE61BD62ED6009CF00E /* Main.storyboard */,
 				D8196FE91BD62ED6009CF00E /* Assets.xcassets */,
 				D8196FEB1BD62ED6009CF00E /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81970121BD63014009CF00E /* UIView+LayoutTolecen.m in Sources */,
 				D8196FE51BD62ED6009CF00E /* ViewController.m in Sources */,
 				D8196FE21BD62ED6009CF00E /* AppDelegate.m in Sources */,
 				D8196FDF1BD62ED6009CF00E /* main.m in Sources */,
